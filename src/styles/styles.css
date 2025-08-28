@@ -1,0 +1,14 @@
+@import './global/global.css';
+@import './fonts/fonts.css';
+@import './../vendor/normalize.css';
+
+@import './components/header.css';
+@import './components/main.css';
+@import './components/card.css';
+@import './components/modal.css';
+@import './components/game-form.css';
+@import './components/statistic.css';
+@import './components/filter.css';
+
+
+

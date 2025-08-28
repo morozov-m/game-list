@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameList</title>
+
+
+<script defer src="bundle.js"></script></head>
+
+<body class="page">
+
+  <header class="header">
+
+    <div class="header_content">
+      <a href="./index.html">
+        <h1 class="main_title">&lt;GameList</h1>
+      </a>
+      <div class="button_header_container">
+      <button class="header_button button_statistic" aria-label="Посмотреть статичтику">
+<svg class="svg_button_add" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+  <path fill-rule="evenodd" d="M18.955 1.25c-.433 0-.83 0-1.152.043-.356.048-.731.16-1.04.47-.31.309-.422.684-.47 1.04-.043.323-.043.72-.043 1.152v13.09c0 .433 0 .83.043 1.152.048.356.16.731.47 1.04.309.31.684.422 1.04.47.323.043.72.043 1.152.043h.09c.433 0 .83 0 1.152-.043.356-.048.731-.16 1.04-.47.31-.309.422-.684.47-1.04.043-.323.043-.72.043-1.152V3.955c0-.433 0-.83-.043-1.152-.048-.356-.16-.731-.47-1.04-.309-.31-.684-.422-1.04-.47-.323-.043-.72-.043-1.152-.043h-.09Zm-1.13 1.572-.002.001-.001.003a.703.703 0 0 0-.042.177c-.028.21-.03.504-.03.997v13c0 .493.002.787.03.997a.702.702 0 0 0 .042.177l.001.003.003.001.003.002.007.003c.022.009.07.024.167.037.21.028.504.03.997.03s.787-.002.997-.03a.702.702 0 0 0 .177-.042l.003-.001.001-.003a.702.702 0 0 0 .042-.177c.028-.21.03-.504.03-.997V4c0-.493-.002-.787-.03-.997a.703.703 0 0 0-.042-.177l-.001-.003-.003-.001a.704.704 0 0 0-.177-.042c-.21-.028-.504-.03-.997-.03s-.787.002-.997.03a.705.705 0 0 0-.177.042Zm-5.87 1.428h.09c.433 0 .83 0 1.152.043.356.048.731.16 1.04.47.31.309.422.684.47 1.04.043.323.043.72.043 1.152v10.09c0 .433 0 .83-.043 1.152-.048.356-.16.731-.47 1.04-.309.31-.684.422-1.04.47-.323.043-.72.043-1.152.043h-.09c-.432 0-.83 0-1.152-.043-.356-.048-.731-.16-1.04-.47-.31-.309-.422-.684-.47-1.04-.043-.323-.043-.72-.043-1.152V6.955c0-.433 0-.83.043-1.152.048-.356.16-.731.47-1.04.309-.31.684-.422 1.04-.47.323-.043.72-.043 1.152-.043Zm-1.132 1.573.003-.001-.003 12.355-.001-.003a.702.702 0 0 1-.042-.177c-.028-.21-.03-.504-.03-.997V7c0-.493.002-.787.03-.997a.703.703 0 0 1 .042-.177l.001-.003Zm0 12.354.003-12.355.003-.002.007-.003a.705.705 0 0 1 .167-.037c.21-.028.504-.03.997-.03s.787.002.997.03a.704.704 0 0 1 .177.042l.003.001.001.003a.703.703 0 0 1 .042.177c.028.21.03.504.03.997v10c0 .493-.002.787-.03.997a.702.702 0 0 1-.042.177l-.001.003-.003.001a.077.077 0 0 1-.01.005.702.702 0 0 1-.167.037c-.21.028-.504.03-.997.03s-.787-.002-.997-.03a.703.703 0 0 1-.177-.042l-.003-.001ZM4.955 8.25c-.433 0-.83 0-1.152.043-.356.048-.731.16-1.04.47-.31.309-.422.684-.47 1.04-.043.323-.043.72-.043 1.152v6.09c0 .433 0 .83.043 1.152.048.356.16.731.47 1.04.309.31.684.422 1.04.47.323.043.72.043 1.152.043h.09c.433 0 .83 0 1.152-.043.356-.048.731-.16 1.04-.47.31-.309.422-.684.47-1.04.043-.323.043-.72.043-1.152v-6.09c0-.433 0-.83-.043-1.152-.048-.356-.16-.731-.47-1.04-.309-.31-.684-.422-1.04-.47-.323-.043-.72-.043-1.152-.043h-.09Zm-1.13 1.572-.002.001-.001.003a.706.706 0 0 0-.042.177c-.028.21-.03.504-.03.997v6c0 .493.002.787.03.997a.704.704 0 0 0 .042.177v.002l.004.002a.703.703 0 0 0 .177.042c.21.028.504.03.997.03s.787-.002.997-.03a.703.703 0 0 0 .177-.042l.003-.001.001-.003.002-.004.003-.006a.704.704 0 0 0 .037-.167c.028-.21.03-.504.03-.997v-6c0-.493-.002-.787-.03-.997a.706.706 0 0 0-.042-.177l-.001-.003-.003-.001a.705.705 0 0 0-.177-.042c-.21-.028-.504-.03-.997-.03s-.787.002-.997.03a.705.705 0 0 0-.177.042Z" clip-rule="evenodd"/>
+  <path d="M3 21.25a.75.75 0 0 0 0 1.5h18a.75.75 0 0 0 0-1.5H3Z"/>
+</svg>
+
+
+      </button>
+     <!-- <button class="header_button button_delete_all">удалить все</button>-->
+      <button class="header_button button_add_card" aria-label="Добавить игру"><svg class="svg_button_add" viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill="white"
+            d="M381,236H276V131c0-11-9-20-20-20s-20,9-20,20v105H131c-11,0-20,9-20,20s9,20,20,20h105v105c0,11,9,20,20,20  s20-9,20-20V276h105c11,0,20-9,20-20S392,236,381,236z" />
+        </svg></button>
+        </div>
+    </div>
+    <hr class="line_header">
+  </header>
+
+  <main class="main">
+    <div class="search_container">
+   <label for="title-search">Поиск</label>   
+   <input id="title-search" data-search="title" class="search_input" type="text" placeholder="Введите название игры">
+
+
+   <label for="sort">Сортировать по</label>
+     <select data-search="sort" id="sort">
+    <option value="">дате добавление</option>
+    <option value="По часам">часам</option>
+
+   </select>
+
+   <button class="button_filter">
+   <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    d="M4 4h16v2.172a2 2 0 0 1-.586 1.414L15 12v7l-6 2v-8.5L4.52 7.572A2 2 0 0 1 4 6.227V4z"/>
+</svg>
+</button>
+
+<button class="button_reverse">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <path d="M7.5 4.25a.75.75 0 0 1 .75.75v12.227l2.227-2.163a.75.75 0 1 1 1.045 1.076l-3.5 3.398a.75.75 0 0 1-1.045 0l-3.5-3.398a.75.75 0 1 1 1.045-1.076l2.228 2.162V5a.75.75 0 0 1 .75-.75m8.477.212a.75.75 0 0 1 1.045 0l3.5 3.398a.75.75 0 0 1-1.045 1.076L17.25 6.774V19a.75.75 0 0 1-1.5 0V6.774l-2.228 2.162a.75.75 0 0 1-1.045-1.076z"/>
+</svg>
+</button>
+    </div>
+
+<p class="empty_message">Список пока пуст</p>
+    <div class="card_catalog">
+      
+     
+    </div>
+  </main>
+ <template id="card-template">
+        <div class="card">
+          <header class="header_card">
+            <p class="card_number">1</p>
+            <div class="img_container">
+              <img src="images/i (2).webp" alt="" class="card_img">
+              <svg class="edit_card" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                <path fill="white"
+                  d="M64,39A25,25,0,1,0,89,64,25,25,0,0,0,64,39Zm0,44A19,19,0,1,1,83,64,19,19,0,0,1,64,83Z" />
+                <path fill="white"
+                  d="M121,48h-8.93a1,1,0,0,1-.94-.68,49.9,49.9,0,0,0-2-4.85,1,1,0,0,1,.18-1.15L115.62,35a7,7,0,0,0,0-9.9L102.89,12.38a7,7,0,0,0-9.9,0l-6.31,6.31a1,1,0,0,1-1.15.18,49.76,49.76,0,0,0-4.85-2,1,1,0,0,1-.68-.94V7a7,7,0,0,0-7-7H55a7,7,0,0,0-7,7v8.93a1,1,0,0,1-.68.94,49.9,49.9,0,0,0-4.85,2,1,1,0,0,1-1.15-.18L35,12.38a7,7,0,0,0-9.9,0L12.38,25.11a7,7,0,0,0,0,9.9l6.31,6.31a1,1,0,0,1,.18,1.15,49.76,49.76,0,0,0-2,4.85,1,1,0,0,1-.94.68H7a7,7,0,0,0-7,7V73a7,7,0,0,0,7,7h8.93a1,1,0,0,1,.94.68,49.9,49.9,0,0,0,2,4.85,1,1,0,0,1-.18,1.15L12.38,93a7,7,0,0,0,0,9.9l12.73,12.73a7,7,0,0,0,9.9,0l6.31-6.31a1,1,0,0,1,1.15-.18,49.76,49.76,0,0,0,4.85,2,1,1,0,0,1,.68.94V121a7,7,0,0,0,7,7H73a7,7,0,0,0,7-7v-8.93a1,1,0,0,1,.68-.94,49.9,49.9,0,0,0,4.85-2,1,1,0,0,1,1.15.18L93,115.62a7,7,0,0,0,9.9,0l12.73-12.73a7,7,0,0,0,0-9.9l-6.31-6.31a1,1,0,0,1-.18-1.15,49.76,49.76,0,0,0,2-4.85,1,1,0,0,1,.94-.68H121a7,7,0,0,0,7-7V55A7,7,0,0,0,121,48Zm1,25a1,1,0,0,1-1,1h-8.93a7,7,0,0,0-6.6,4.69,43.9,43.9,0,0,1-1.76,4.26,7,7,0,0,0,1.35,8l6.31,6.31a1,1,0,0,1,0,1.41L98.65,111.38a1,1,0,0,1-1.41,0l-6.31-6.31a7,7,0,0,0-8-1.35,43.88,43.88,0,0,1-4.27,1.76,7,7,0,0,0-4.68,6.6V121a1,1,0,0,1-1,1H55a1,1,0,0,1-1-1v-8.93a7,7,0,0,0-4.69-6.6,43.9,43.9,0,0,1-4.26-1.76,7,7,0,0,0-8,1.35l-6.31,6.31a1,1,0,0,1-1.41,0L16.62,98.65a1,1,0,0,1,0-1.41l6.31-6.31a7,7,0,0,0,1.35-8,43.88,43.88,0,0,1-1.76-4.27A7,7,0,0,0,15.93,74H7a1,1,0,0,1-1-1V55a1,1,0,0,1,1-1h8.93a7,7,0,0,0,6.6-4.69,43.9,43.9,0,0,1,1.76-4.26,7,7,0,0,0-1.35-8l-6.31-6.31a1,1,0,0,1,0-1.41L29.35,16.62a1,1,0,0,1,1.41,0l6.31,6.31a7,7,0,0,0,8,1.35,43.88,43.88,0,0,1,4.27-1.76A7,7,0,0,0,54,15.93V7a1,1,0,0,1,1-1H73a1,1,0,0,1,1,1v8.93a7,7,0,0,0,4.69,6.6,43.9,43.9,0,0,1,4.26,1.76,7,7,0,0,0,8-1.35l6.31-6.31a1,1,0,0,1,1.41,0l12.73,12.73a1,1,0,0,1,0,1.41l-6.31,6.31a7,7,0,0,0-1.35,8,43.88,43.88,0,0,1,1.76,4.27,7,7,0,0,0,6.6,4.68H121a1,1,0,0,1,1,1Z" />
+              </svg>
+            </div>
+
+
+            <div class="card_text">
+              <h2 class="card_title"></h2>
+              <p class="card_description"> </p>
+            </div>
+          </header>
+
+          <p class="card_status">В процессе</p>
+         
+            <p class="card_total_time">142</p>
+      
+        </div>
+      </template>
+
+
+
+
+  <dialog class="modal" role="dialog" aria-modal="true">
+    <svg class="modal_close" aria-label="закрыть модальное окно" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <line x1="7" y1="7" x2="25" y2="25" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <line x1="7" y1="25" x2="25" y2="7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+    <h2 class="modal_title">Add game</h2>
+    <div class="modal_content"></div>
+   
+  </dialog>
+
+
+  <template id="filter">
+    <div class="filter_container">
+<label for="status-search">По статусу <select data-filter="status" id="status-search" class="input">
+    <option value="">Показать все</option>
+    <option value="Пройдено">Пройдено</option>
+    <option value="В процессе">В процессе</option>
+    <option value="Брошено">Брошено</option>
+   </select></label>
+  
+
+   <label for="hours-search-more">Больше<input data-filter="hoursMore" class="input" id="hours-search-more" type="number"> часов</label>
+  
+
+   <label for="hours-search-under">Меньше<input data-filter="hoursUnder" class="input" id="hours-search-under" type="number">часов</label>
+  
+
+      <div class="modal_buttons">
+        <button type="button" class="button_cancel">Закрыть</button>   
+      </div>
+    </div>
+  </template>
+
+
+  <template id="confirm">
+     <div class="modal_buttons">
+        <button type="button" class="button_cancel">Отмена</button>
+        <button type="button" class="button_delete">Удалить</button>
+      </div>
+  </template>
+
+
+  <template id="form-game-modal-template">
+
+ <div class="div">
+    <form id="modal-form-game" class="modal_form_game" name="form-for-game"  enctype="multipart/form-data">
+
+
+      <fieldset class="fieldset">
+        <label for="img" class="modal_label">Фото</label>
+        <input class="input" id="img" type="file" name="image" accept="image/*" required>
+        <div id="img-error" class="just-validate-error-label"></div>
+      </fieldset>
+
+
+      <fieldset class="fieldset">
+
+        <label for="name" class="modal_label">Название</label>
+        <input class="input" id="name" type="text" name="title" required>
+        <div id="name-error" class="just-validate-error-label"></div>
+
+      </fieldset>
+
+
+      <fieldset class="fieldset">
+
+        <label for="status" class="modal_label">
+          Статус</label>
+        <select class="input" id="status" name="status" required>
+          <option value="Пройдено">Пройдено</option>
+          <option value="В процессе">В процессе</option>
+          <option value="Брошено">Брошено</option>
+        </select>
+      </fieldset>
+
+
+
+
+      <fieldset class="fieldset">
+
+        <label for="hour" class="modal_label">
+          Часы</label>
+        <input class="input" id="hour" type="number" name="hours" min="0" max="100000" required>
+        <div id="hour-error" class="just-validate-error-label"></div>
+
+      </fieldset>
+
+
+      <fieldset class="fieldset">
+
+        <label for="sub" class="modal_label">
+          Дополнительно </label>
+        <input class="input" id="sub" type="text" name="extra" maxlength="100">
+      </fieldset>
+
+
+       <div class="modal_buttons">
+        <button type="submit" class="button_add">Добавить</button>
+        <button type="submit" class="button_save">Сохранить</button>
+        <button type="button" class="button_cancel">Отмена</button>
+        <button type="button" class="button_delete">Удалить</button>
+      </div>
+    </form>
+    </div>
+  </template>
+
+
+  <template id="statistic">
+    <div class="statistic_container">
+      <ul class="statistic_list">
+        <li class="statistic_item hours">потрачено</li>
+        <li class="statistic_item completed">пройдено</li>
+        <li class="statistic_item skip">брошено</li>
+        <li class="statistic_item in_progress">в процессе</li>
+        <div class="modal_buttons">
+        <button type="button" class="button_cancel">Закрыть</button>   
+      </div>
+      </ul>
+    </div>
+  </template>
+
+  <footer>
+
+  </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Overpass';
+  src: url('../../vendor/Overpass-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* диапазон веса переменного шрифта */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('../../vendor/Overpass-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}

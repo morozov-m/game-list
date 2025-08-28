@@ -1,0 +1,6 @@
+.statistic_list {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

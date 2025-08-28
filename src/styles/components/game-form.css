@@ -1,0 +1,57 @@
+
+
+.modal_form_game {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.335);
+     margin-bottom: 8px;
+} 
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modal_buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.modal_buttons button {
+     font-size: 25px;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    transition: 0.2s ease;
+}
+
+.modal_buttons button:hover {
+    color: rgb(214, 214, 214);
+}
+
+
+.just-validate-error-label {
+  min-height: 20px; 
+  
+
+  font-size: 17px;
+ 
+  transition: 0.2s ease;
+  
+}
+
+
+.is-invalid {
+    border-bottom: 1px solid  red;
+}

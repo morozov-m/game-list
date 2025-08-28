@@ -1,0 +1,45 @@
+.modal[open] {
+    width: 50vw;
+    min-height: 10vh;
+    position: fixed;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    padding: 30px;
+    overflow: visible; 
+    border: none;
+}
+
+.modal[open]:focus {
+    outline: none;
+}
+
+.modal_close {
+    position: absolute;
+    top: -55px;
+    right: -55px;
+    width: 65px;
+    height: 65px;
+    stroke: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.modal_close:hover {
+    opacity: 0.5;
+}
+
+
+
+.modal_title {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+
+}
+
+
+.page:has(.modal[open]) {
+    overflow: hidden;
+    filter: blur(4px);
+}
